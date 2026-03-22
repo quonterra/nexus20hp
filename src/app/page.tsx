@@ -6,6 +6,7 @@ import Events from '@/components/Events'
 import Gallery from '@/components/Gallery'
 import Why from '@/components/Why'
 import Voice from '@/components/Voice'
+import EventGallery from '@/components/EventGallery'
 import CtaSection from '@/components/CtaSection'
 import Footer from '@/components/Footer'
 
@@ -21,6 +22,7 @@ export default function Page() {
         <Gallery />
         <Why />
         <Voice />
+        <EventGallery />
         <CtaSection />
       </main>
       <Footer />

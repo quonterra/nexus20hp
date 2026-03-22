@@ -1,11 +1,11 @@
 import Image from 'next/image'
 
 const events = [
-  { image: '/images/event-halloween.jpg', chip: '🎃 Halloween',    title: 'ハロウィンパーティー\n仮装で集まる、最高の夜！' },
-  { image: '/images/event-tea.jpg',       chip: '☕ Afternoon Tea', title: '優雅な午後を\n特別なスイーツと。' },
-  { image: '/images/event-wedding.jpg',   chip: '🎉 Celebration',  title: '仲間の喜びを\nみんなで祝う！' },
-  { image: '/images/event-nabe.jpg',      chip: '🍲 Nabe Party',   title: '鍋を囲めば\nすぐに打ち解ける！' },
-  { image: '/images/event-dinner.jpg',    chip: '🌙 Dinner',       title: '夜景の中の\n特別なディナー。' },
+  { image: '/images/LINE_ALBUM_イベント写真素材_260317_7.jpg', chip: '🎃 Halloween',    title: 'ハロウィンパーティー\n仮装で集まる、最高の夜！' },
+  { image: '/images/event_01.jpg',                              chip: '☕ Afternoon Tea', title: '優雅な午後を\n特別なスイーツと。' },
+  { image: '/images/LINE_ALBUM_イベント写真素材_260317_10.jpg', chip: '🎉 Celebration',  title: '仲間の喜びを\nみんなで祝う！' },
+  { image: '/images/LINE_ALBUM_イベント写真素材_260317_3.jpg',  chip: '🍲 Nabe Party',   title: '鍋を囲めば\nすぐに打ち解ける！' },
+  { image: '/images/LINE_ALBUM_イベント写真素材_260317_9.jpg',  chip: '🌙 Dinner',       title: '夜景の中の\n特別なディナー。' },
 ]
 
 function EventCard({ ev, span, ratio, sizes }: { ev: typeof events[0]; span: string; ratio: string; sizes: string }) {

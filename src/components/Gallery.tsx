@@ -1,12 +1,15 @@
 import Image from 'next/image'
 
 const galleryImages = [
-  { src: '/images/gallery-01.jpg', span: 'col-span-3 row-span-2', style: { minHeight: '300px' } as React.CSSProperties },
-  { src: '/images/gallery-02.jpg', span: 'col-span-3',            style: { aspectRatio: '3/2' } as React.CSSProperties },
-  { src: '/images/gallery-03.jpg', span: 'col-span-3',            style: { aspectRatio: '3/2' } as React.CSSProperties },
-  { src: '/images/gallery-04.jpg', span: 'col-span-2',            style: { aspectRatio: '1' } as React.CSSProperties },
-  { src: '/images/gallery-05.jpg', span: 'col-span-2',            style: { aspectRatio: '1' } as React.CSSProperties },
-  { src: '/images/gallery-06.jpg', span: 'col-span-2',            style: { aspectRatio: '1' } as React.CSSProperties },
+  { src: '/images/LINE_ALBUM_イベント写真素材_260317_15.jpg', span: 'col-span-3 row-span-2', style: { minHeight: '300px' } as React.CSSProperties },
+  { src: '/images/event_03.jpg',                               span: 'col-span-3',            style: { aspectRatio: '3/2' } as React.CSSProperties },
+  { src: '/images/LINE_ALBUM_イベント写真素材_260317_8.jpg',  span: 'col-span-3',            style: { aspectRatio: '3/2' } as React.CSSProperties },
+  { src: '/images/LINE_ALBUM_イベント写真素材_260317_1.jpg',  span: 'col-span-2',            style: { aspectRatio: '1' } as React.CSSProperties },
+  { src: '/images/LINE_ALBUM_イベント写真素材_260317_4.jpg',  span: 'col-span-2',            style: { aspectRatio: '1' } as React.CSSProperties },
+  { src: '/images/LINE_ALBUM_イベント写真素材_260317_6.jpg',  span: 'col-span-2',            style: { aspectRatio: '1' } as React.CSSProperties },
+  { src: '/images/event_04.jpg',                               span: 'col-span-2',            style: { aspectRatio: '1' } as React.CSSProperties },
+  { src: '/images/LINE_ALBUM_イベント写真素材_260317_2.jpg',  span: 'col-span-2',            style: { aspectRatio: '1' } as React.CSSProperties },
+  { src: '/images/LINE_ALBUM_イベント写真素材_260317_5.jpg',  span: 'col-span-2',            style: { aspectRatio: '1' } as React.CSSProperties },
 ]
 
 export default function Gallery() {

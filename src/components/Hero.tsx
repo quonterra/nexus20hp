@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react'
 import Image from 'next/image'
 
-const heroImages = ['/images/hero-01.jpg','/images/hero-02.jpg','/images/hero-03.jpg','/images/hero-04.jpg']
+const heroImages = ['/images/event_01.jpg','/images/LINE_ALBUM_イベント写真素材_260317_11.jpg','/images/hero-01.jpg','/images/LINE_ALBUM_イベント写真素材_260317_15.jpg','/images/hero-03.jpg','/images/LINE_ALBUM_イベント写真素材_260317_7.jpg','/images/hero-02.jpg','/images/hero-04.jpg']
 
 export default function Hero() {
   const [cur, setCur] = useState(0)
